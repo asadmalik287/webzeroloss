@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex justify-between items-center gap-8 w-full pl-16">
-          <div className="font-ibmplex font-medium text-[16px] text-[#C4CBCB] flex items-center gap-6">
+          <div className="font-ibmplex m-auto font-medium text-[16px] text-[#C4CBCB] flex items-center gap-6">
             <a href="#product">Product </a>
             <a href="#security">Security</a>
             <a href="#faq">FAQ</a>
