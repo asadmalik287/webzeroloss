@@ -1,0 +1,227 @@
+.affiliateprogram {
+    background-image: url('../images/Hero.png');
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: IBMPlexSansRegular;
+    src: url('../fonts/IBMPlexSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexSansBold;
+    src: url('../fonts/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexSansSemiBold;
+    src: url('../fonts/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexSansMedium;
+    src: url('../fonts/IBMPlexSans-Medium.ttf');
+}
+
+.IBMPlexSansRegular {
+    font-family: IBMPlexSansRegular;
+}
+
+.IBMPlexSansBold {
+    font-family: IBMPlexSansBold;
+}
+
+.IBMPlexSansSemiBold {
+    font-family: IBMPlexSansSemiBold;
+}
+
+.IBMPlexSansMedium {
+    font-family: IBMPlexSansMedium;
+}
+
+body {
+    font-family: IBMPlexSansMedium;
+}
+
+.affiliateprogram-hero h1 {
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+
+.affiliateprogram-hero .topbtn {
+    background: linear-gradient(105.93deg, rgba(210, 207, 205, 0.2) 4.51%, rgba(214, 173, 156, 0.1) 95.49%);
+    border: 1px solid #C5B3AACC;
+    backdrop-filter: blur(57.20000076293945px);
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+
+.purpleGradient {
+    position: relative;
+}
+
+.purpleGradient1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    border-radius: 24px;
+    padding: 3px;
+    /* background: linear-gradient(121.61deg, #FF0090 1.84%, #FFCA00 100.33%); */
+    /* -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); */
+    -webkit-mask-composite: xor;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.blogspurplegradient1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    padding: 3px;
+    background: linear-gradient(121.61deg, #FF0090 1.84%, #FFCA00 100.33%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.overlayblogsingle {
+    background: linear-gradient(180deg, rgba(19, 17, 18, 0.01) -6.02%, rgba(7, 46, 47, 0.5) 43.28%);
+}
+.purpleGradient{
+    border: 3px solid #FF0090;
+
+}
+.blogspurplegradient2 {
+    background: linear-gradient(270deg, rgba(65, 216, 123, 0.06) 0%, rgba(4, 11, 12, 0.3) 70.02%);
+
+}
+
+.webcurve1,
+.webcurve2 {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    z-index: +999;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blog-banner-card {
+    backdrop-filter: blur(24px);
+    background-color: #E6F5ED;
+    box-shadow: -40px 10px 45px 0px #D2D9D54D inset;
+    border: 1px solid #28E3EB;
+}
+
+.green-boxes {
+    background: linear-gradient(270deg, rgba(65, 216, 123, 0) -130.4%, rgba(4, 11, 12, 0.24) 78.81%);
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1376px) {
+    .paddingmax {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .affiliateprogram-hero h1 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.04em;
+
+    }
+
+    .green-boxes img {
+        width: 50px;
+    }
+
+    .green-boxes h3,
+    .purpleGradient h3 {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .green-boxes p,
+    .purpleGradient p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .purpleGradient img {
+        width: 100px;
+    }
+
+    .purpleGradient {
+        width: 264px;
+    }
+
+    .green-boxes img {
+        width: 50px;
+    }
+
+    footer ul * {
+        font-size: 16px !important;
+    }
+
+    footer .leftcol {
+        width: auto;
+    }
+
+    .webcurve1,
+    .webcurve2 {
+        left: 124px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .webcurve1,
+    .webcurve2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .purpleGradient {
+        width: 100%;
+    }
+
+    .purpleGradient img {
+        width: 48px;
+    }
+
+    .purpleGradient h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .purpleGradient p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .green-boxes img {
+        width: 36px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .paddingmax {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}

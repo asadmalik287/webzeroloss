@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HandelGotDOTMed";
+  src: url("./assets/Fonts/HandelGotDOTMed.otf");
+}
+
+.font_ibmlex {
+  font-family: IBM Plex Sans, sans-serif !important;
+}
+
+body {
+  color: white;
+  background-color: #e5f4eb;
+}
+.slick-slide {
+  padding: 0 6px; /* Adjust as needed */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.graph-container {
+  overflow-x: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #53c07d #ffffff0e; /* For Firefox */
+}
+
+.graph-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.graph-container::-webkit-scrollbar-thumb {
+  background-color: #53c07d;
+  border-radius: 10px;
+  height: 8px;
+}
+
+.graph-container::-webkit-scrollbar-track {
+  background-color: #f0f0f025;
+}
+
+.position-container {
+  overflow-x: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #000 #f0f0f025; /* For Firefox */
+}
+
+.position-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.position-container::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.position-container::-webkit-scrollbar-track {
+  background-color: #f0f0f025;
+}
+
+.cus_loader {
+  width: 30px;
+  padding: 4px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+text {
+  fill: #d3dbdb;
+}
+
+.animate-blink {
+  animation: blink 1.5s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1400px) {
+  .table-gap {
+    padding-left: 60px;
+  }
+  .content-gap {
+    gap: 25px;
+  }
+}
+.recharts-bar-rectangle:hover {
+  fill: #53c07d !important;
+}
