@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: IBMPlexSansRegular;
-    src: url('../fonts/IBMPlexSans-Regular.ttf');
+    src: url('../Fonts/IBMPlexSans-Regular.ttf');
 }
 
 @font-face {
     font-family: IBMPlexSansBold;
-    src: url('../fonts/IBMPlexSans-Bold.ttf');
+    src: url('../Fonts/IBMPlexSans-Bold.ttf');
 }
 
 @font-face {
     font-family: IBMPlexSansSemiBold;
-    src: url('../fonts/IBMPlexSans-Bold.ttf');
+    src: url('../Fonts/IBMPlexSans-Bold.ttf');
 }
 
 @font-face {
     font-family: IBMPlexSansMedium;
-    src: url('../fonts/IBMPlexSans-Medium.ttf');
+    src: url('../Fonts/IBMPlexSans-Medium.ttf');
 }
 
 .IBMPlexSansRegular {
