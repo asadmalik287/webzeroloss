@@ -28,7 +28,7 @@ const Footer = () => {
             className="w-[300px] xsm:w-full h-[44px] text-[#858585] border border-[#B5C9BD] rounded-[12px] flex items-center justify-center pl-4 mr-4"
             placeholder="Your e-mail address"
           />
-          <button className="w-[106px] mr-4 h-[44px] rounded-[12px] bg-[#41D77B] flex items-center justify-center font-medium font-ibmplex text-[16px] text-[#031E0D]">
+          <button className="w-[106px] mr-4 h-[44px] rounded-[8px] bg-[#41D77B] flex items-center justify-center font-medium font-ibmplex text-[16px] text-[#031E0D]">
             Subscribe
           </button>
         </div>
