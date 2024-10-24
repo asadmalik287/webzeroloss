@@ -7,32 +7,22 @@ import youtube from "../../assets/Footer/youtube.svg";
 const Footer = () => {
   return (
     <div className="bg-[#040B0C]">
-      <div className="md:flex lg:flex xl:flex w-7/12 px-8 py-5 mx-auto rounded-lg items-center justify-between xsm:w-11/12 sm:w-11/12 bg-[#ECFBF2]">
-        <div>
-          <h4 className="text-xl text-[#032123] font-semibold">
-            Subscribe to our Bot!
-          </h4>
-          <h1 className="font-normal font-ibmplex text-base text-[#032123]">
-            Like and subscribe get latest news about Our
-            <br />
-            <span className="text-[#51C62B] font-handlegothic font-medium">
-              ZEROLOSS &nbsp;
-            </span>
-            AI bot
-          </h1>
+    <div className='lg:max-w-[934.17px] xsm:max-w-[284.67px] bg-[#ECFBF2] rounded-[8px] mx-auto paddingmax py-[20px] px-[32px]'>
+          <div className='grid  gap-[16px] items-center lg:grid-cols-2'>
+            <div>
+              <h3 className='text-[#032123] IBMPlexSansSemiBold lg:text-start text-center text-[20px] leading-[30px]'>Subscribe to our Bot!</h3>
+              <p className='max-w-[338px] lg:text-start text-center text-[#282B2B] pt-[12px] leading-[24px]'>
+                Like and subscribe get latest news about Our <span className='text-[#51C62B]'>ZEROLOSS</span> AI bot
+              </p>
+            </div>
+            <div className='max-w-[394px]'>
+              <div className='flex lg:flex-nowrap flex-wrap	 gap-[12px]'>
+                <input className='border-[1px] placeholder-[#032123] rounded-[8px] py-[8px]  px-[12px] border-[#B5C9BD]  w-full lg:w-[276px] h-[44px]' placeholder='Your e-mail address' />
+                <button className='bg-[#41D87B] leading-[24px] lg-w-[106px] w-full h-[44px] rounded-[6px]'>Subscribe</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex items-center justify-center">
-          <input
-            type="email"
-            id="email"
-            className="w-[300px] xsm:w-full h-[44px] text-[#858585] border border-[#B5C9BD] rounded-[12px] flex items-center justify-center pl-4 mr-4"
-            placeholder="Your e-mail address"
-          />
-          <button className="w-[106px] mr-4 h-[44px] rounded-[12px] bg-[#41D77B] flex items-center justify-center font-medium font-ibmplex text-[16px] text-[#031E0D]">
-            Subscribe
-          </button>
-        </div>
-      </div>
       <div className=" max-w-[1400px] mx-auto w-full px-4 py-12">
         <div className="flex items-start md:px-32 justify-between sm:w-full sm:flex-col sm:items-start sm:gap-12  xsm:w-full xsm:flex-col xsm:items-center xsm:gap-12">
           <div>
