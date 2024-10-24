@@ -13,7 +13,7 @@ import privacy from "../../../assets/FAQ/privacy.svg";
 
 const FAQ = () => {
   return (
-    <div id="security" className="px-4 bg-[#ecfbf2] pb-20  ">
+    <div id="security" className="px-4 bg-[#ecfbf2] pb-20 relative ">
       <div className="flex flex-col items-center  justify-center py-12">
         <h1 className="font-semibold font-ibmplex text-[40px] text-[#032123] sm:text-[30px] text-center  xsm:text-[22px]">
           Discover the{" "}
@@ -105,12 +105,12 @@ const FAQ = () => {
       <img
         src={left}
         alt=""
-        className="absolute w-[247px] h-[400px] mt-72 ml-28 xsm:hidden"
+        className="absolute w-[247px] h-[512px] mt-72 ml-28 lg:bottom-[68px] lg:left-[217px] xsm:hidden"
       />
       <img
         src={right}
         alt=""
-        className="absolute w-[347px] h-[400px] mt-96 mr-20 right-0 xsm:hidden"
+        className="absolute w-[447px] h-[400px] mt-96 mr-20 lg:bottom-[18px] lg:right-[157px] xsm:hidden"
       />
       <div
         className="flex items-center justify-center flex-col pt-12 pb-24"

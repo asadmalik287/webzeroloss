@@ -25,16 +25,16 @@ const Navbar = () => {
 
         <div className="hidden lg:flex justify-between items-center gap-8 w-full pl-16">
           <div className="font-ibmplex m-auto font-medium text-[16px] text-[#C4CBCB] flex items-center gap-6">
-            <a href="#product">Product </a>
-            <a href="#security">Security</a>
-            <a href="#faq">FAQ</a>
-            <a
-              href="#live-position-history"
+            <a href="/#product">Product </a>
+            <a href="/#security">Security</a>
+            <a href="/#faq">FAQ</a>
+            <Link
+              to="/affiliateprogram"
               className="flex items-center gap-2"
             >
               {/* <span className="w-[9px] h-[9px] block rounded-full bg-[#37BD70]"></span> */}
               Affiliate Partnership
-            </a>
+            </Link>
             <Link to="/blog">Blog</Link>
           </div>
           <div className="flex items-center gap-4">

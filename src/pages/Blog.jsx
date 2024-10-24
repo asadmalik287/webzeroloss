@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import BlogComponent from "../components/BlogComponent";
 import blogImage2 from "../assets/images/blog-2.png";
 import blogImage3 from "../assets/images/blog-3.png";
-import blogImage4 from "../assets/images/blog-4.png";
+// import blogImage4 from "../assets/images/blog-4.png";
 import chart from "../assets/images/chart.png";
 import blogcard6 from "../assets/images/blogcard6.png";
 import blogcard7 from "../assets/images/blogcard7.png";
