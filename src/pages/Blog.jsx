@@ -100,7 +100,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="lg:pt-[77px] pt-[20px] text-center mx-auto lg:max-w-[916px] max-w-[264px] relative">
+        <div className="lg:mt-[77px] mt-[20px] text-center mx-auto lg:max-w-[916px] max-w-[264px] relative">
           <img src={pikaso_embed} alt="..." className="rounded-t-[12px]" />
           <div className="absolute top-0 lg:left-[-102px] left-[-20px] blog-header-card w-full h-full flex items-center">
             <div className="blog-banner-card lg:rounded-[12px] rounded-[4px] lg:px-[32px] px-[12px] lg:py-[52px] py-[10px] lg:w-[580px] w-[190px]">
@@ -259,27 +259,27 @@ const Blog = () => {
             </div>
           </div>
           <div className="flex justify-end pt-[44px]">
-            <div class="flex items-center space-x-2">
-              <button class="px-3 py-1 text-gray-600 hover:text-gray-800">
+            <div className="flex items-center space-x-2">
+              <button className="px-3 py-1 text-gray-600 hover:text-gray-800">
                 &lt;
               </button>
-              <button class="px-3 py-1 text-gray-600 hover:text-gray-800">
+              <button className="px-3 py-1 text-gray-600 hover:text-gray-800">
                 1
               </button>
-              <button class="px-3 py-1 text-[#282B2B] bg-[#FBFFFD]  border border-gray-400">
+              <button className="px-3 py-1 text-[#282B2B] bg-[#FBFFFD]  border border-gray-400">
                 2
               </button>
-              <button class="px-3 py-1 text-gray-600 hover:text-gray-800">
+              <button className="px-3 py-1 text-gray-600 hover:text-gray-800">
                 3
               </button>
-              <span class="px-3 py-1 text-gray-600">...</span>
-              <button class="px-3 py-1 text-gray-600 hover:text-gray-800">
+              <span className="px-3 py-1 text-gray-600">...</span>
+              <button className="px-3 py-1 text-gray-600 hover:text-gray-800">
                 9
               </button>
-              <button class="px-3 py-1 text-gray-600 hover:text-gray-800">
+              <button className="px-3 py-1 text-gray-600 hover:text-gray-800">
                 10
               </button>
-              <button class="px-3 py-1 text-white bg-gray-400 rounded-md hover:bg-gray-500">
+              <button className="px-3 py-1 text-white bg-gray-400 rounded-md hover:bg-gray-500">
                 &gt;
               </button>
             </div>

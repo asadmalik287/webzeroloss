@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../../assets/Navbar/logo.svg";
 import { FaBars } from "react-icons/fa"; // Use Font Awesome for the bars icon
 import { IoMdClose } from "react-icons/io"; // Use Font Awesome for the close icon
@@ -32,8 +32,8 @@ const Navbar = () => {
               href="#live-position-history"
               className="flex items-center gap-2"
             >
-              <span className="w-[9px] h-[9px] block rounded-full bg-[#37BD70]"></span>
-              Live Position History
+              {/* <span className="w-[9px] h-[9px] block rounded-full bg-[#37BD70]"></span> */}
+              Affiliate Partnership
             </a>
             <Link to="/blog">Blog</Link>
           </div>
