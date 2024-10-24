@@ -117,7 +117,7 @@ const Blog = () => {
         </div>
       </section>
       {/*  */}
-      <section className=" items-center lg:py-[48px] xsm:py-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
+      <section className=" items-center lg:py-[100px] xsm:py-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
         <div className="mx-auto lg:max-w-[1376px]   pb-[16px]  border-b border-b-[#DCE0DD] flex justify-between">
           <div>
             <h2 className="text-[#032123] lg:text-[40px] text-[18px] leading-[48px] IBMPlexSansSemiBold">
@@ -125,7 +125,7 @@ const Blog = () => {
             </h2>
           </div>
           <div>
-            <button className="bg-[#FBFFFD] lg:px-[16px] px-[14px] lg:py-[12px] py-[8px] lg:text-[16px] text-[14px] IBMPlexSansBold border text-[#032123] border-[#DCE0DD] ">
+            <button className="bg-[#FBFFFD] lg:px-[16px] px-[14px] rounded-[4px] lg:py-[12px] py-[8px] lg:text-[16px] text-[14px] IBMPlexSansBold border text-[#032123] border-[#DCE0DD] ">
               See All
             </button>
           </div>
