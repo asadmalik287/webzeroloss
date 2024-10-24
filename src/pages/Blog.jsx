@@ -117,7 +117,7 @@ const Blog = () => {
         </div>
       </section>
       {/*  */}
-      <section className=" items-center lg:py-[97px] xsm:py-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
+      <section className=" items-center lg:py-[48px] xsm:py-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
         <div className="mx-auto lg:max-w-[1376px]   pb-[16px]  border-b border-b-[#DCE0DD] flex justify-between">
           <div>
             <h2 className="text-[#032123] lg:text-[40px] text-[18px] leading-[48px] IBMPlexSansSemiBold">
@@ -146,7 +146,7 @@ const Blog = () => {
               <BlogCard image={blogImage3} />
             </div>
             <div className="">
-              <BlogCard image={blogImage4} />
+              <BlogCard image={blogImage2} />
             </div>
             <div className="">
               <BlogCard image={chart} />
