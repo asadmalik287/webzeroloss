@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Header from "../layout/Navbar/index";
 import Footer from "../layout/Footer/index";
 import heroimage from "../assets/images/heroimage.png";
