@@ -21,8 +21,8 @@ const Footer = () => {
             </div>
             <div className='max-w-[394px]'>
               <div className='flex lg:flex-nowrap flex-wrap	 gap-[12px]'>
-                <input className='border-[1px] placeholder-[#032123] rounded-[8px] py-[8px]  px-[12px] border-[#B5C9BD]  w-full lg:w-[276px] h-[44px]' placeholder='Your e-mail address' />
-                <button className='bg-[#41D87B] leading-[24px] lg-w-[106px] w-full h-[44px] rounded-[6px]'>Subscribe</button>
+                <input className='border-[1px] bg-transparent placeholder-[#A49F9F] rounded-[8px] py-[8px]  px-[12px] border-[#B5C9BD]  w-full lg:w-[276px] h-[44px]' placeholder='Your e-mail address' />
+                <button className='bg-[#41D87B] text-[#031E0D] leading-[24px] lg:w-[106px] xsm:w-full h-[44px] rounded-[6px]'>Subscribe</button>
               </div>
             </div>
           </div>
