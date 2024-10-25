@@ -117,7 +117,7 @@ const Blog = () => {
         </div>
       </section>
       {/*  */}
-      <section className=" items-center lg:py-[100px] xsm:py-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
+      <section className=" items-center lg:pt-[64px] lg:pb-[100px] xsm:pb-[48px] xsm:pt-[20px] sm:py-[20px] paddingmax bg-[#ECFBF2] ">
         <div className="mx-auto lg:max-w-[1376px]   pb-[16px]  border-b border-b-[#DCE0DD] flex justify-between">
           <div>
             <h2 className="text-[#032123] lg:text-[40px] text-[18px] leading-[48px] IBMPlexSansSemiBold">
