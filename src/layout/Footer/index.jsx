@@ -4,10 +4,14 @@ import instagram from "../../assets/Footer/instagram.svg";
 import linkdin from "../../assets/Footer/linkdin.svg";
 import x from "../../assets/Footer/x.svg";
 import youtube from "../../assets/Footer/youtube.svg";
+import { useLocation } from 'react-router-dom';
+
 const Footer = () => {
+  const location = useLocation();
+  const isBlogPage = location.pathname === '/affiliateprogram';
   return (
-    <div className="bg-[#040B0C]">
-    <div className='lg:max-w-[934.17px] xsm:max-w-[284.67px] bg-[#ECFBF2] rounded-[8px] mx-auto paddingmax py-[20px] px-[32px]'>
+    <div className={`bg-[#040B0C] ${isBlogPage ? 'pt-[48px]' : ''}`}>
+    <div className='lg:max-w-[934.17px]  xsm:max-w-[284.67px] bg-[#ECFBF2] rounded-[8px] mx-auto paddingmax py-[20px] px-[32px]'>
           <div className='grid  gap-[16px] items-center lg:grid-cols-2'>
             <div>
               <h3 className='text-[#032123] IBMPlexSansSemiBold lg:text-start text-center text-[20px] leading-[30px]'>Subscribe to our Bot!</h3>
