@@ -5,6 +5,7 @@ import commision from '../assets/images/commision.png'
 import webcurve1 from '../assets/images/webcurve1.png'
 import webcurve2 from '../assets/images/webcurve2.png'
 import vertical from '../assets/images/vertical.png'
+
 const JoinTheZeroLoss = () => {
     return (
         <>

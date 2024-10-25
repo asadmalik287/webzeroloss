@@ -100,7 +100,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="lg:mt-[77px] mt-[20px] text-center mx-auto lg:max-w-[916px] max-w-[264px] relative">
+        <div className="lg:mt-[40px] mt-[20px] text-center mx-auto lg:max-w-[916px] max-w-[264px] relative">
           <img src={pikaso_embed} alt="..." className="rounded-t-[12px]" />
           <div className="absolute top-0 lg:left-[-102px] left-[-20px] blog-header-card w-full h-full flex items-center">
             <div className="blog-banner-card lg:rounded-[12px] rounded-[4px] lg:px-[32px] px-[12px] lg:py-[52px] py-[10px] lg:w-[580px] w-[190px]">
@@ -243,7 +243,7 @@ const Blog = () => {
       </section>
 
       {/*  */}
-
+      <JoinProgram image={JoinPrgmImg1}/>
       {/*  */}
       <section className="  bg-[#ECFBF2]">
         <div className="py-[48px] max-w-[1376px] m-auto  m-auto pb-[48px] paddingmax">
